@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <title>pianomag | категории</title>
+  </head>
+  <body>
+    <main>
+      <section class="categories">
+        <h2 class="visually-hidden">Виды пианино</h2>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <article class="category">
+              <div class="category__text-wrapper">
+                <h2 class="category__heading">Акустическое</h2>
+                <ul class="category__list category__list--align-right">
+                  <li class="category__list-item">Эталонный живой звук</li>
+                  <li class="category__list-item">Благородный внешний вид</li>
+                  <li class="category__list-item">Прикосновение к традиции</li>
+                </ul>
+                <a class="category__link category__link--mobile button button--big" href="#!">Акустическое</a>
+                <a class="category__link category__link--desktop button" href="#!">Выбрать</a>
+              </div>
+              <picture class="category__image-wrapper">
+                <source media="(min-width: 768px)" srcset="img/category-acoustic@desktop.jpg">
+                <source media="(min-width: 376px)" srcset="img/category-acoustic@tablet.jpg">
+                <img class="categories__image" src="img/category-acoustic.jpg" alt="">
+              </picture>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="category">
+              <div class="category__text-wrapper">
+                <h2 class="category__heading">Цифровое</h2>
+                <ul class="category__list category__list--align-left">
+                  <li class="category__list-item">Малый вес</li>
+                  <li class="category__list-item">Широкий</li>
+                  <li class="category__list-item">Доступная цена</li>
+                </ul>
+                <a class="category__link category__link--mobile button button--big" href="#!">Цифровое</a>
+                <a class="category__link category__link--desktop button" href="#!">Выбрать</a>
+              </div>
+              <picture class="category__image-wrapper">
+                <source media="(min-width: 768px)" srcset="img/category-digital@desktop.jpg">
+                <source media="(min-width: 376px)" srcset="img/category-digital@tablet.jpg">
+                <img class="categories__image" src="img/category-digital.jpg" alt="">
+              </picture>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
