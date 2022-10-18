@@ -82,7 +82,7 @@
   margin: auto 0 0;
 }
 
-.category__link--desktop {
+.category .category__link--desktop {
   display: none;
 }
 
@@ -148,11 +148,12 @@
     position: static;
     opacity: 1;
   }
-  .category__link--mobile {
+  
+  .category .category__link--mobile {
     display: none;
   }
 
-  .category__link--desktop {
+  .category .category__link--desktop {
     display: inline-block;
   }
 }
