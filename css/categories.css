@@ -345,9 +345,6 @@
     -o-transition-property: opacity, transform;
     transition-property: opacity, transform;
     transition-property: opacity, transform, -webkit-transform;
-    -webkit-transition-delay: 0s, 200ms;
-         -o-transition-delay: 0s, 200ms;
-            transition-delay: 0s, 200ms;
   }
 
   .category__list-item {
